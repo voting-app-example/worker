@@ -17,5 +17,5 @@ spec:
       containers: 
       - name: worker
         image: registry.digitalocean.com/voting-app-example/worker:<TAG>
-        imagePullSecrets:
-        - name: voting-app-example-do-registry
+      imagePullSecrets:
+      - name: voting-app-example-do-registry
